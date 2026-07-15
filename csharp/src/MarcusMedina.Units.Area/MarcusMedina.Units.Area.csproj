@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>14.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageId>MarcusMedina.Units.Area</PackageId>
+    <Version>0.1.0</Version>
+    <Title>MarcusMedina.Units.Area</Title>
+    <Description>Fluent area unit conversion — metric, US, British and historical Swedish units (m², ha, acre, tunnland).</Description>
+    <Authors>Marcus Medina</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/MarcusMedinaPro/MarcusMedina.Units.Area</RepositoryUrl>
+    <PackageTags>area;units;conversion;fluent;metric;hectare;acre;tunnland;imperial</PackageTags>
+    <NoWarn>CS1573;CS1591</NoWarn>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RootNamespace>MarcusMedina.Units.Area</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\..\assets\icon.png" Pack="true" PackagePath="\" />
+    <None Include="..\..\..\assets\open-source.svg" Pack="true" PackagePath="assets\" />
+  </ItemGroup>
+</Project>
