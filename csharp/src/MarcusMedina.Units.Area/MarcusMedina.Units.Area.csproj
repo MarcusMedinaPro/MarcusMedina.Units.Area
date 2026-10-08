@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>MarcusMedina.Units.Area</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Title>MarcusMedina.Units.Area</Title>
     <Description>Fluent area unit conversion — metric, US, British and historical Swedish units (m², ha, acre, tunnland).</Description>
     <Authors>Marcus Medina</Authors>
